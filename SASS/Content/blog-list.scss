@@ -10,8 +10,7 @@ p{
 
 .hero-iamge {
     height: 400px;
-    background: linear-gradient(180deg, $primary-color),
-    $secondary-color, url('../../img/Kittens\ hero.jpg');
+    background: linear-gradient(180deg, $primary-color, $secondary-color), url('../../img/Kittens\ hero.jpg');
     background-size: cover;
     background-position: 50% 50%;
     width: 100%;

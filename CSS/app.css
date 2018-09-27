@@ -79,8 +79,8 @@ p {
   font-family: "KoHo", sans-serif; }
 
 .hero-iamge {
-  min-height: 400px;
-  background: linear-gradient(180deg, #318c00), #49d100, url("../../img/Kittens hero.jpg");
+  height: 400px;
+  background: linear-gradient(180deg, #318c00, #49d100), url("../../img/Kittens hero.jpg");
   background-size: cover;
   background-position: 50% 50%;
   width: 100%; }
