@@ -4,5 +4,8 @@ h1 {
 p {
   font-family: "KoHo", sans-serif; }
 
-.blog-post a {
-  font-family: "KoHo", sans-serif; }
+.date {
+  font-family: "Dosis", sans-serif; }
+
+.blog-name a {
+  font-family: "Dosis", sans-serif; }
