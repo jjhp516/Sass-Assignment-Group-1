@@ -1,0 +1,44 @@
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 125px;
+    width: 100%;
+    background: $primary-color;
+
+}
+
+.social-1 {
+
+    background: $background-color;
+    margin: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 200px;
+}
+.social-2 {
+
+    background: $background-color;
+    margin: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 200px;
+    
+}
+.social-3 {
+
+    background: $background-color;
+    margin: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 200px;
+}
+.social-4 {
+
+    background: $background-color;
+    margin: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 200px;
+}
