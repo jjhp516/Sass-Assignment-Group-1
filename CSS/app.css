@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
   display: flex;
   height: 100px;
@@ -68,3 +69,18 @@
   height: 65px;
   width: 65px;
   border-radius: 200px; }
+=======
+h1 {
+  font-family: "Lora", serif; }
+
+p {
+  font-family: "KoHo", sans-serif; }
+
+.date {
+  font-family: "Dosis", sans-serif; }
+
+.blog-name a {
+  font-family: "Dosis", sans-serif; }
+
+  
+>>>>>>> blog
