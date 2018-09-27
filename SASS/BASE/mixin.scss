@@ -1,0 +1,11 @@
+@mixin social-display() {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background: $background-color;
+margin: 20px;
+height: 65px;
+width: 65px;
+border-radius: 200px;
+}
