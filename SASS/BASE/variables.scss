@@ -3,10 +3,16 @@ $background-color: rgb(204, 214, 199);
 $primary-color: rgb(49, 140, 0);
 $secondary-color:  rgb(73, 209, 0);
 $icon-bg-color: rgb(58, 168, 0);
+$hover-color: rgb(0, 168, 153);
 
 // FONT
 $title-font: 'Lora', serif;
 $body-font: 'KoHo', sans-serif;
 $caption-font: 'Dosis', sans-serif;
 
-
+// Containers on the left 
+$box: 
+    height 400px
+    width 300px
+    color $secondary-color;
+    
