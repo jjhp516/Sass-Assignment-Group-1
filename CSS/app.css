@@ -109,3 +109,18 @@
 
 .social-4 i {
   font-size: 2em; }
+
+h1 {
+  font-family: "Lora", serif; }
+
+p {
+  font-family: "KoHo", sans-serif; }
+
+.date {
+  font-family: "Dosis", sans-serif; }
+
+.blog-name a {
+  font-family: "Dosis", sans-serif; }
+
+.blog-name {
+  font-family: "Lora", serif; }
