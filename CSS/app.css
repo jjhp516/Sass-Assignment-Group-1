@@ -1,3 +1,90 @@
+.nav {
+  height: 100px;
+  width: 100%;
+  background: red; }
+
+.about {
+  height: 150px;
+  width: 100%;
+  background: #ccd6c7; }
+  .about a {
+    text-decoration: none;
+    font: "Lora", serif;
+    color: black;
+    margin-left: 250px; }
+
+.container .name1 {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin: 20px auto 20px; }
+  .container .name1 .box {
+    background: #ccd6c7;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%; }
+  .container .name1 .description1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    padding-left: 30px; }
+
+.container .name2 {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin: 20px auto 20px; }
+  .container .name2 .box {
+    background: #ccd6c7;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%; }
+  .container .name2 .description2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    padding-left: 30px; }
+
+.container .name3 {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin: 20px auto 20px; }
+  .container .name3 .box {
+    background: #ccd6c7;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%; }
+  .container .name3 .description3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    padding-left: 30px; }
+
+.container .name4 {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin: 20px auto 20px; }
+  .container .name4 .box {
+    background: #ccd6c7;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%; }
+  .container .name4 .description4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    padding-left: 30px; }
+
 * {
   box-sizing: border-box; }
 
