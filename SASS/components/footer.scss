@@ -1,0 +1,53 @@
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    background: $primary-color;
+    
+}
+
+.social-1 {
+
+@include social-display;
+}
+
+.social-1 i {
+
+    font-size: 2em;
+}
+
+
+.social-2 {
+
+    @include social-display;
+    
+}
+
+.social-2 i {
+
+    font-size: 2em;
+}
+
+.social-3 {
+
+    @include social-display;
+}
+
+.social-3 i {
+
+    font-size: 2em;
+}
+
+
+.social-4 {
+
+@include social-display;
+}
+.social-4 i {
+
+    font-size: 2em;
+}

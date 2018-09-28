@@ -84,3 +84,163 @@
     width: 500px;
     height: 300px;
     padding-left: 30px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #ccd6c7; }
+
+h1, h2 {
+  font-family: "Lora", serif;
+  font-size: 1.8em; }
+
+h1 {
+  font-size: 3em; }
+
+p {
+  font-family: "KoHo", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5; }
+
+.date, a {
+  font-family: "Dosis", sans-serif; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px; }
+
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background: #318c00; }
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px; }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ccd6c7;
+  margin: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 200px; }
+
+.logo i {
+  font-size: 2em; }
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%; }
+
+.about button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  margin-right: 70px;
+  font-family: "KoHo", sans-serif; }
+
+.about button:hover {
+  cursor: pointer; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 125px;
+  width: 100%;
+  background: #318c00; }
+
+.social-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ccd6c7;
+  margin: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 200px; }
+
+.social-1 i {
+  font-size: 2em; }
+
+.social-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ccd6c7;
+  margin: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 200px; }
+
+.social-2 i {
+  font-size: 2em; }
+
+.social-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ccd6c7;
+  margin: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 200px; }
+
+.social-3 i {
+  font-size: 2em; }
+
+.social-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ccd6c7;
+  margin: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 200px; }
+
+.social-4 i {
+  font-size: 2em; }
+
+.blog-name {
+  max-width: 800px;
+  padding: 80px 0; }
+  .blog-name h1 {
+    margin: 35px 0 20px; }
+  .blog-name i {
+    margin-right: 4px; }
+  .blog-name a {
+    text-decoration: none; }
+
+.blog-post {
+  margin: 60px auto 90px;
+  max-width: 700px; }
+  .blog-post p {
+    margin: 0 0 40px; }
+
+section {
+  background: url(../images/Kittens-hero.jpg);
+  background-size: cover;
+  background-position: 50%, 50%;
+  min-height: 340px; }
