@@ -5,7 +5,6 @@
     background: $primary-color;
 }
 
-
 .logo-container {
     display: flex;
     flex-direction: row;
@@ -13,66 +12,48 @@
     align-items: center;
     width: 200px;
     height: 100px;
-    
 }
+
 .logo {
-
     @include social-display;
- 
-
 }
-
-
 
 .logo i {
-
     font-size: 2em;
     color: $icon-bg-color;
 }
 
-
-
 .logo i:hover {
-
     @include social-icon-hover;
 }
 
-
 .about{
-
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
-    }
-
-.about button{
-
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-background: none;
-border: none;
-text-transform: uppercase;
-margin-right: 70px;
-font-family: $body-font;
 }
 
+.about button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    margin-right: 70px;
+    font-family: $body-font;
+}
 
 .about button:hover{
     cursor: pointer;
-    }
-
+}
 
 .about a {
-
     @include header-icons;
-   
 }
 
 .about a:hover {
-
     transform: scale(1.1)
 }
-
 

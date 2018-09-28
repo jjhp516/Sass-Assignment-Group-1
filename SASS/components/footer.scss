@@ -7,72 +7,57 @@
     height: 125px;
     width: 100%;
     background: $primary-color;
-    
 }
 
 .social-1 {
-
-@include social-display;
+    @include social-display;
 }
 
 .social-1 :hover {
-    
-@include social-icon-hover;
+    @include social-icon-hover;
 }
 
 .social-1 i {
-
     font-size: 2em;
     color: $icon-bg-color;
 }
 
-
-
 .social-2 {
-
     @include social-display;
-    
 }
 
 .social-2 :hover {
-    
     @include social-icon-hover;
-    }
+}
 
 .social-2 i {
-
     font-size: 2em;
     color: $icon-bg-color;
 }
 
 .social-3 {
-
     @include social-display;
 }
+
 .social-3 :hover {
-    
     @include social-icon-hover;
-    }
+}
 
 .social-3 i {
-
     font-size: 2em;
     color: $icon-bg-color;
 }
 
-
 .social-4 {
-
-@include social-display;
+    @include social-display;
 }
 
 .social-4 :hover {
-    
     @include social-icon-hover;
-    }
+}
 
 .social-4 i {
-
     font-size: 2em;
     color: $icon-bg-color;
 }
+
