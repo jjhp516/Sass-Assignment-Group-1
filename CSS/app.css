@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+body {
+  background: #ccd6c7; }
+
 h1, h2 {
   font-family: "Lora", serif;
   font-size: 1.8em; }
@@ -133,9 +136,10 @@ p {
 .social-4 i {
   font-size: 2em; }
 
-
 section {
-  background: lightsalmon; }
+  background: url(../images/Kittens-hero.jpg);
+  background-size: cover;
+  background-position: 50%, 50%; }
 
 .blog-name {
   max-width: 800px;
