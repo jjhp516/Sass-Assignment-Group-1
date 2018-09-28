@@ -1,22 +1,22 @@
 h2, p {
   margin: 0; }
 
-.container .box-layout, .container .name1 .box, .container .name2 .box, .container .name3 .box, .container .name4 .box {
+.box-layout, .name1 .box, .name2 .box, .name3 .box, .name4 .box {
   height: 250px;
   width: 300px;
   border-radius: 30%;
   box-shadow: 10px 10px 25px black; }
 
-.container .name1 {
+.name1 {
   width: 80%;
   height: 300px;
   display: flex;
   margin: 20px auto 20px; }
-  .container .name1 .box {
+  .name1 .box {
     background: url("../images/xavier-cat.jpg");
     background-size: contain;
     background-position: center; }
-  .container .name1 .description1 {
+  .name1 .description1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -24,16 +24,16 @@ h2, p {
     height: 300px;
     padding: 20px 0  0 30px; }
 
-.container .name2 {
+.name2 {
   width: 80%;
   height: 300px;
   display: flex;
   margin: 20px auto 20px; }
-  .container .name2 .box {
+  .name2 .box {
     background: url("../images/jason-cat.jpg");
     background-size: contain;
     background-position: center; }
-  .container .name2 .description2 {
+  .name2 .description2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -41,16 +41,16 @@ h2, p {
     height: 300px;
     padding: 20px 0  0 30px; }
 
-.container .name3 {
+.name3 {
   width: 80%;
   height: 300px;
   display: flex;
   margin: 20px auto 20px; }
-  .container .name3 .box {
+  .name3 .box {
     background: url("../images/maria-cat.jpg");
     background-size: contain;
     background-position: center; }
-  .container .name3 .description3 {
+  .name3 .description3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,16 +58,16 @@ h2, p {
     height: 300px;
     padding: 20px 0  0 30px; }
 
-.container .name4 {
+.name4 {
   width: 80%;
   height: 300px;
   display: flex;
   margin: 20px auto 20px; }
-  .container .name4 .box {
+  .name4 .box {
     background: url("../images/jasdeep-cat.jpg");
     background-size: contain;
     background-position: center; }
-  .container .name4 .description4 {
+  .name4 .description4 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -247,14 +247,14 @@ p {
   font-size: 2em;
   color: #a80076; }
 
-.blog-name {
+.hero-title {
   max-width: 800px;
   padding: 80px 0; }
-  .blog-name h1 {
+  .hero-title h1 {
     margin: 35px 0 20px; }
-  .blog-name i {
+  .hero-title i {
     margin-right: 4px; }
-  .blog-name a {
+  .hero-title a {
     text-decoration: none; }
 
 .blog-post {
