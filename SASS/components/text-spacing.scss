@@ -1,0 +1,47 @@
+.hero-title {
+    max-width: 800px;
+    padding: 80px 0;
+
+    h1 {
+        margin: 35px 0 20px;
+    }
+
+    i {
+        margin-right: 4px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.blog-post, .blog-content {
+    margin: 60px auto 90px;
+    max-width: 700px;
+     
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 10px 0 30px;
+    }
+
+    a {
+        font-family: $title-font;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: black;
+       
+    }
+}
+
+.container p {
+    padding: 10px 0;
+}

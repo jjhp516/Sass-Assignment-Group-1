@@ -1,16 +1,23 @@
 h2, p {
   margin: 0; }
 
+.container {
+  padding: 60px 0 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .box-layout, .name1 .box, .name2 .box, .name3 .box, .name4 .box {
   height: 250px;
   width: 300px;
+  margin: 10px;
   border-radius: 30%;
   box-shadow: 10px 10px 25px black; }
 
 .name1 {
-  width: 80%;
   display: flex;
-  margin: 20px auto 20px; }
+  margin: 20px auto 20px;
+  padding: 10px; }
   .name1 .box {
     background: url("../images/xavier-cat.jpg");
     background-size: cover;
@@ -24,9 +31,9 @@ h2, p {
     padding: 20px 0  0 30px; }
 
 .name2 {
-  width: 80%;
   display: flex;
-  margin: 20px auto 20px; }
+  margin: 20px auto 20px;
+  padding: 10px; }
   .name2 .box {
     background: url("../images/jason-cat.jpg");
     background-size: cover;
@@ -40,9 +47,9 @@ h2, p {
     padding: 20px 0  0 30px; }
 
 .name3 {
-  width: 80%;
   display: flex;
-  margin: 20px auto 20px; }
+  margin: 20px auto 20px;
+  padding: 10px; }
   .name3 .box {
     background: url("../images/maria-cat.jpg");
     background-size: cover;
@@ -56,9 +63,9 @@ h2, p {
     padding: 20px 0  0 30px; }
 
 .name4 {
-  width: 80%;
   display: flex;
-  margin: 20px auto 20px; }
+  margin: 20px auto 20px;
+  padding: 10px; }
   .name4 .box {
     background: url("../images/jasdeep-cat.jpg");
     background-size: cover;
@@ -91,7 +98,8 @@ h1 {
 p {
   font-family: "KoHo", sans-serif;
   font-size: 1.3em;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-align: justify; }
 
 .date, a {
   font-family: "Dosis", sans-serif; }
@@ -257,11 +265,23 @@ p {
   .hero-title a {
     text-decoration: none; }
 
-.blog-post {
+.blog-post, .blog-content {
   margin: 60px auto 90px;
   max-width: 700px; }
-  .blog-post p {
-    margin: 0 0 40px; }
+  .blog-post h2, .blog-content h2 {
+    margin-bottom: 10px; }
+  .blog-post p, .blog-content p {
+    margin: 10px 0 30px; }
+  .blog-post a, .blog-content a {
+    font-family: "Lora", serif;
+    text-decoration: none; }
+  .blog-post a:hover, .blog-content a:hover {
+    text-decoration: underline; }
+  .blog-post a:visited, .blog-content a:visited {
+    color: black; }
+
+.container p {
+  padding: 10px 0; }
 
 section {
   height: 700px;
