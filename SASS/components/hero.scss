@@ -1,8 +1,9 @@
 section {
+    height: 700px;
     background: $hero-img;
     background-size: cover;
-    background-position: 50%, 50%;
-    min-height: 340px;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
 }
 
 
