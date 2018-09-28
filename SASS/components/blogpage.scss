@@ -1,6 +1,7 @@
 section {
-    // replace background with hero image
-    background: lightsalmon;
+    background: url(../images/Kittens-hero.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
 }
 
 .blog-name {
