@@ -1,150 +1,109 @@
-.nav{
-    height: 100px;
-    width: 100%;
-    background:red; 
-}
-.about{
-    height: 150px;
-    width: 100%;
-    background: rgb(204, 214, 199);
-    
 
-    a{
-        text-decoration: none;
-        font: $title-font;
-        color: black;
-        margin-left: 250px;
-        // padding:100px; 
+
+h2,p{
+    margin:0;
+}
+
+   .box-layout
+    {
+    height: 250px;
+    width:300px;
+    border-radius: 30%;
+    box-shadow: 10px 10px 25px black;
     }
-
-}
-.container{
-    // display: flex;
-    // flex-direction: column;
-    // justify-content:space-around;
-
-   
 
     .name1{
-        // background: red;
         width: 80%;
         height: 300px;
         display: flex;
-        // justify-content: space-around;
         margin: 20px auto 20px;
 
-             
-            .box
-            {
-            background:rgb(204, 214, 199);
-            height: 250px;
-            width:300px;
-            border-radius: 50%;
+             .box{
+                @extend .box-layout;
+                 background: url('../images/xavier-cat.jpg');
+                              
+                 background-size: contain;
+                 background-position: center;
+             }
             
-            
-            }
             .description1{
-            // background: green;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             width: 500px;
             height: 300px;
-            padding-left: 30px;
+            padding: 20px 0  0 30px;
 
             }
 
     }
-    
-    
+       
     .name2{
-        // background: red;
         width: 80%;
         height: 300px;
         display: flex;
-        // flex-direction: column;
-        // justify-content: space-around;
         margin: 20px auto 20px;
 
 
-        .box
-            {
-            background:rgb(204, 214, 199);
-            height: 250px;
-            width:300px;
-            border-radius: 50%;
-            
-            
-            }
+        .box{
+            @extend .box-layout;
+             background: url('../images/jason-cat.jpg');
+             background-size: contain;
+             background-position: center;
+         }
+        
         .description2{
-            // background: green;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             width: 500px;
             height: 300px;
-            padding-left: 30px;
-
-    
+            padding: 20px 0  0 30px;
         }
     
     }
     .name3{
-        // background: red;
         width: 80%;
         height: 300px;
         display: flex;
-        // flex-direction: column;
-        // justify-content: space-around;
         margin: 20px auto 20px;
-        .box
-            {
-            background:rgb(204, 214, 199);
-            height: 250px;
-            width:300px;
-            border-radius: 50%;
-            
-            
-            }
+        
+        .box{
+            @extend .box-layout;
+             background: url('../images/maria-cat.jpg');
+             background-size: contain;
+             background-position: center;
+         }
         .description3{
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             width: 500px;
             height: 300px;
-            padding-left: 30px;
-
-    
+            padding: 20px 0  0 30px;
         }
     }
 
     .name4{
-        // background: red;
         width: 80%;
         height: 300px;
         display: flex;
-        // flex-direction: column;
-        // justify-content: space-around;
         margin: 20px auto 20px;
         
-        .box
-        {
-        background:rgb(204, 214, 199);
-        height: 250px;
-        width:300px;
-        border-radius: 50%;
-        
-        
-        }
+        .box{
+            @extend .box-layout;
+             background: url('../images/jasdeep-cat.jpg');
+             background-size: contain;
+             background-position: center;
+         }
         .description4{
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             width: 500px;
             height: 300px;
-            padding-left: 30px;
+            padding: 20px 0  0 30px;
 
-    
         }
     }
 
