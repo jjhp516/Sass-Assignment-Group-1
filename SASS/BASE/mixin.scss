@@ -8,4 +8,19 @@ margin: 20px;
 height: 65px;
 width: 65px;
 border-radius: 200px;
+cursor: pointer;
+}
+
+@mixin social-icon-hover() {
+
+    transform: scale(1.1);
+}
+
+@mixin header-icons () {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: $icon-bg-color;
+
 }

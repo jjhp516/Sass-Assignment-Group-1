@@ -15,10 +15,17 @@
 @include social-display;
 }
 
+.social-1 :hover {
+    
+@include social-icon-hover;
+}
+
 .social-1 i {
 
     font-size: 2em;
+    color: $icon-bg-color;
 }
+
 
 
 .social-2 {
@@ -27,19 +34,30 @@
     
 }
 
+.social-2 :hover {
+    
+    @include social-icon-hover;
+    }
+
 .social-2 i {
 
     font-size: 2em;
+    color: $icon-bg-color;
 }
 
 .social-3 {
 
     @include social-display;
 }
+.social-3 :hover {
+    
+    @include social-icon-hover;
+    }
 
 .social-3 i {
 
     font-size: 2em;
+    color: $icon-bg-color;
 }
 
 
@@ -47,7 +65,14 @@
 
 @include social-display;
 }
+
+.social-4 :hover {
+    
+    @include social-icon-hover;
+    }
+
 .social-4 i {
 
     font-size: 2em;
+    color: $icon-bg-color;
 }

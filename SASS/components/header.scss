@@ -18,13 +18,25 @@
 .logo {
 
     @include social-display;
+ 
 
 }
+
+
 
 .logo i {
 
     font-size: 2em;
+    color: $icon-bg-color;
 }
+
+
+
+.logo i:hover {
+
+    @include social-icon-hover;
+}
+
 
 .about{
 
@@ -52,5 +64,15 @@ font-family: $body-font;
     }
 
 
+.about a {
+
+    @include header-icons;
+   
+}
+
+.about a:hover {
+
+    transform: scale(1.1)
+}
 
 

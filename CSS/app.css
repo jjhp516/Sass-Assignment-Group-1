@@ -124,10 +124,15 @@ p {
   margin: 20px;
   height: 65px;
   width: 65px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  cursor: pointer; }
 
 .logo i {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #a80076; }
+
+.logo i:hover {
+  transform: scale(1.1); }
 
 .about {
   display: flex;
@@ -148,6 +153,15 @@ p {
 .about button:hover {
   cursor: pointer; }
 
+.about a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #a80076; }
+
+.about a:hover {
+  transform: scale(1.1); }
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -166,10 +180,15 @@ p {
   margin: 20px;
   height: 65px;
   width: 65px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  cursor: pointer; }
+
+.social-1 :hover {
+  transform: scale(1.1); }
 
 .social-1 i {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #a80076; }
 
 .social-2 {
   display: flex;
@@ -180,10 +199,15 @@ p {
   margin: 20px;
   height: 65px;
   width: 65px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  cursor: pointer; }
+
+.social-2 :hover {
+  transform: scale(1.1); }
 
 .social-2 i {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #a80076; }
 
 .social-3 {
   display: flex;
@@ -194,10 +218,15 @@ p {
   margin: 20px;
   height: 65px;
   width: 65px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  cursor: pointer; }
+
+.social-3 :hover {
+  transform: scale(1.1); }
 
 .social-3 i {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #a80076; }
 
 .social-4 {
   display: flex;
@@ -208,10 +237,15 @@ p {
   margin: 20px;
   height: 65px;
   width: 65px;
-  border-radius: 200px; }
+  border-radius: 200px;
+  cursor: pointer; }
+
+.social-4 :hover {
+  transform: scale(1.1); }
 
 .social-4 i {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #a80076; }
 
 .blog-name {
   max-width: 800px;
@@ -230,7 +264,8 @@ p {
     margin: 0 0 40px; }
 
 section {
+  height: 700px;
   background: url(../images/Kittens-hero.jpg);
   background-size: cover;
-  background-position: 50%, 50%;
-  min-height: 340px; }
+  background-position: 50% 80%;
+  background-repeat: no-repeat; }
